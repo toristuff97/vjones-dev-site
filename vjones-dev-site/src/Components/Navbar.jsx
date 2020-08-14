@@ -25,7 +25,7 @@ const sidebar = {
   }
 };
 
-const Tests = () => {
+const Navbar = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const { height } = useDimensions(containerRef);
@@ -44,4 +44,4 @@ const Tests = () => {
   );
 };
 
-export default Tests;
+export default Navbar;

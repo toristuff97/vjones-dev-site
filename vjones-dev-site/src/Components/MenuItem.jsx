@@ -29,7 +29,7 @@ export const MenuItem = ({ i }) => {
       whileTap={{ scale: 0.95 }}
     >
       <div className="icon-placeholder" style={style} />
-      <div className="text-placeholder" style={style} />
+      <div className="text-placeholder" style={style} style={{fontFamily:"Bebas Neue", fontSize:"20pt"}}>Language</div>
     </motion.li>
   );
 };

@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import Tests from './Components/Tests';
+import Navbar from './Components/Navbar';
+import Landing from './Components/Landing';
 
 function App() {
   return (
     <div className="App">
-      <Tests />
+      <Navbar />
+      <Landing />
     </div>
   );
 }
