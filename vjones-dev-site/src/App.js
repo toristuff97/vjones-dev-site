@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Landing />
-      <May />
+      <Landing id="landing"/>
+      <May id="may"/>
     </div>
   );
 }

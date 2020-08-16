@@ -1,8 +1,13 @@
 import {React, Component} from 'react';
+import {motion} from 'framer-motion';
 
 export const Preview = () => {
 
-    const video = 'This is a video.';
+    // <motion.div
+    //     animate={{
+
+    //     }}
+    // />
     
     return <h2>{video}</h2>;
     
