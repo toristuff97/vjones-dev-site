@@ -1,9 +1,9 @@
-import {React, Component} from React;
-
-
+import {React, Component} from 'react';
 
 export const Preview = () => {
-    return {
-        
-    }
+
+    const video = 'This is a video.';
+    
+    return <h2>{video}</h2>;
+    
 }
