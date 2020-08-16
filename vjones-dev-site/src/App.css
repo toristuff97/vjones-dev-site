@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* height: 7000px; */
 }
 
 .App-logo {
@@ -123,6 +124,11 @@ li {
   align-items: center;
   cursor: pointer;
 }
+
+/* .Landing {
+  position: fixed;
+  top: 40px;
+} */
 
 
 @keyframes App-logo-spin {
